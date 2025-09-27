@@ -3,7 +3,7 @@ Activity - 2
 
 man tree -a
 Description: List all files including hidden ones.
-(itachi-62㉿Itachi-62)-[~]
+(sri㉿raghav)-[~]
 └─$ tree -a
 .
 ├── .hiddenfile
@@ -13,7 +13,7 @@ Remarks: Useful to see config/hidden files.
 
 man tree -d
 Description: Show only directories.
-(itachi-62㉿Itachi-62)-[~]
+(sri㉿raghav)-[~]
 └─$ tree -d
 .
 ├── Desktop
@@ -23,7 +23,7 @@ Remarks: Filters out files, shows only directories.
 
 man tree -u
 Description: Show file owner usernames.
-(itachi-62㉿Itachi-62)-[~]
+(sri㉿raghav)-[~]
 └─$ tree -u
 .
 [drwxr-xr-x tanveesh]  Desktop
@@ -32,7 +32,7 @@ Remarks: Adds owner info.
 
 man tree -p
 Description: Show file permissions in rwx style.
-(itachi-62㉿Itachi-62)-[~]
+(sri㉿raghav)-[~]
 └─$ tree -p
 .
 [drwxr-xr-x]  Desktop
@@ -42,21 +42,21 @@ Remarks: Displays permissions next to files.
 
 ifconfig
 Description: Show network interface configuration (IP, MAC).
-(itachi-62㉿Itachi-62)-[~]
+(sri㉿raghav)-[~]
 └─$ ifconfig
 eth0: inet 192.168.1.5  netmask 255.255.255.0
 Remarks: Displays network details.
 
 ping google.com
 Description: Test connectivity by sending ICMP packets.
-(itachi-62㉿Itachi-62)-[~]
+(sri㉿raghav)-[~]
 └─$ ping -c 2 google.com
 PING google.com (142.250.183.46) 56(84) bytes of data.
 Remarks: Confirms connection & packet loss info.
 
 traceroute google.com
 Description: Trace the route taken by packets to a host.
-(itachi-62㉿Itachi-62)-[~]
+(sri㉿raghav)-[~]
 └─$ traceroute google.com
 1  router.local (192.168.1.1)
 2  isp.gateway (10.0.0.1)
@@ -64,7 +64,7 @@ Remarks: Shows each hop from your PC to destination.
 
 nmap 192.168.1.1
 Description: Scan open ports and services.
-(itachi-62㉿Itachi-62)-[~]
+(sri㉿raghav)-[~]
 └─$ nmap 192.168.1.1
 PORT   STATE SERVICE
 22/tcp open  ssh
@@ -73,6 +73,6 @@ Remarks: Useful for security auditing.
 
 mkdir newfolder
 Description: Create new directory.
-(itachi-62㉿Itachi-62)-[~]
+(sri㉿raghav)-[~]
 └─$ mkdir newfolder
 Remarks: Makes an empty directory.
